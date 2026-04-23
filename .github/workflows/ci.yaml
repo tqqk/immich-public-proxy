@@ -4,7 +4,7 @@ on:
   workflow_dispatch: # Allows manual trigger
   push:
     branches:
-      - main  # Trigger on every push to the main branch
+      - my-changes  # Trigger on every push to the main branch
 
 env:
   REGISTRY: ghcr.io
